@@ -28,4 +28,5 @@ if st.sidebar.button("haz click pero en la barra lateral"):
   st.sidebar.write("¡Boton de la barra presionada!")
 
 #Campo de texto de la barra lateral
-texto_barra = st.sidebar.text_input("Escribe algo en la barra: {texto_barra}")
+texto_barra = st.sidebar.text_input("Escribe algo en la barra:")
+st.sidebar.write(f"Escribiste en la barra: {texto_barra}")
