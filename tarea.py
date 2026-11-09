@@ -23,7 +23,7 @@ st.sidebar.text("Esto es una barra lateral")
 st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 #boton de la barra
-if st.sidebar.button("haz click pero en la barra lateral"):
+if st.sidebar.button("haz click pero en la barra lateral")
 st.sidebar.write("¡Boton de la barra presionada!")
 
 #Campo de texto de la barra lateral
