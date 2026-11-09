@@ -16,7 +16,7 @@ if st.button("haz click"):
   st.write("¡Boton presionado!")
 
 #Campo de texto del area principal
-nombre_texto = st.tex_input("escribe algo:")
+nombre_texto = st.text_input("escribe algo:")
 st.write(f"escribiste: {nombre_texto}")
 
 #barra lateral
