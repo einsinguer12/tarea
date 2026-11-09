@@ -12,7 +12,8 @@ st.text("esta es una aplicacion simple")
 st.image("https://researchers.uss.cl/skin/footerIcon/", width=250)
 
 #Boton de area principal
-if st.button("¡Boton presionado!")
+if st.button("haz click"):
+st.write("¡Boton presionado!")
 
 #Campo de texto del area principal
 nombre_texto = st.tex_input("escribe algo:")
@@ -23,7 +24,7 @@ st.sidebar.text("Esto es una barra lateral")
 st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 #boton de la barra
-if st.sidebar.button("haz click pero en la barra lateral")
+if st.sidebar.button("haz click pero en la barra lateral"):
 st.sidebar.write("¡Boton de la barra presionada!")
 
 #Campo de texto de la barra lateral
